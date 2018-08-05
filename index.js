@@ -7,11 +7,11 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  console.log(string.toUpperCase)
+  console.log(string.toUpperCase())
 }
 
 function logWhisper(string) {
-  console.log(string.toLowerCase)
+  console.log(string.toLowerCase())
 }
 
 function sayHiToGrandma(string) {
@@ -20,7 +20,7 @@ function sayHiToGrandma(string) {
   var love = "I love you, Grandma."
   
   if (string === upper) {
-    return "YES INDEED !"
+    return "YES INDEED!"
   } else if (string === lower) {
     return "I can't hear you!"
   } else if (string === love) {
